@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Assignment 8.4 - Acadgild </title>
+</head>
+<body>
+
+<a href="http://www.acadgild.com" id="acadgild">jQuery Tutorial</a>
+
+<!-- This will change the link to point to the Android Development Training. The attr() method can also take a map of name/value pairs, for setting multiple attributes at the same time. Here we set both the href and the title attributes simultaneously -->
+
+<script>
+$(function()
+{
+        $("#acadgild").attr(
+        { 
+                "href" : "https://www.acadgild.com/web-development/android-development-training-certification", 
+                "title" : "Android Development Training"
+        });
+});
+</script>
+
+</body>
