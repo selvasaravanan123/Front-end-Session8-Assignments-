@@ -1,0 +1,33 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<meta charset="utf-8">  
+
+  <title> Assignment 8.3 - JQuery </title>  
+</head>  
+
+<body> 
+ <center>
+  <h4> The Below Code will Hide all the input elements within a form. </h4>
+  
+ <form  name='demo_form'>  
+  First name: <input type="text" name="fname"><br>  
+  </br>
+  Last name: <input type="text" name="lname"><br>  
+  </br>
+  <input type="submit" value="Submit">  
+</form>  
+
+<!-- This Code Will Hide the below forms -->
+
+<script>
+$( demo_form.elements ).hide();
+</script>
+
+</center>
+
+</body>  
+</html> 
