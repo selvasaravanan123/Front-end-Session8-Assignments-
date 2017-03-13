@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In Page</title>
+	<style type="text/css">
+		#container {
+			position: fixed;
+			left: 50%;
+			top : 50%;
+			
+		}
+		.loginForm {
+			position: fixed;
+			left: 50%;
+			top: 20%;
+		}
+		.formitem {
+			margin-top: 10px;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./script.js"></script>
+</head>
+<body>
+
+<header>
+	<h1><center>MySelfieTech</center></h1>
+</header>
+<div id="container" >
+		<button id="loginButton">Login</button>
+		<button id="signupButton">SignUp</button>
+</div>
+<form class="loginForm" id= "login">
+	<label>Login</label><br>
+	<input type="text" class="formitem" name="email" id= "email" value="kamaleash@gmail.com"><br>
+	<input type="password" class="formitem" name="password" id="password" value="Password"><br>
+	<center><input type="submit" class="formitem" name="submitvalue" value="SubmitQuery" id="submitlogin"></center>
+	<button class="formitem backButton" style="float : right">back</button>
+	<p id="usernamematch"></p>
+</form>
+
+<form class="loginForm" id= "signup">
+	<label>Login</label><br>
+	<input type="text" class="formitem" name="userName" id="username" value="nutnaik"><br>
+	<input type="text" class="formitem" name="email" id="email1" value="nutann@gmail.com"><br>
+	<input type="password" class="formitem" name="password" id="password1" value="1234"><br>
+	<center><input type="submit" class="formitem" name="submitvalue" value="SubmitQuery" id="submitsignup"></center>
+	<button class="formitem backButton" style="float : right">back</button><br><br>
+	
+</form>
+
+
+
+
+
+</body>
+</html>
